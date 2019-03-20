@@ -1,8 +1,47 @@
 body {
-    color: black;,
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 2px;
 }
 
 span {
     color:orange;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.main-header {
+    height: 10vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 5;
+    background-color: grey;
+    color: black;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
 }
