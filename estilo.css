@@ -8,13 +8,6 @@ span {
     color:orange;
 }
 
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 header  {
     display: flex;
     flex-direction: row;
@@ -44,4 +37,11 @@ article {
 .subtitulo {
     display: flex;
     justify-content: center;
+    font-family: 'Margarine', cursive;
+}
+
+.tutorias{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
