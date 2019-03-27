@@ -8,18 +8,21 @@ span {
     color:orange;
 }
 
-header  {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
 .main-header {
     height: 10vh;
     margin: 5px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    font-size: 2em;
+}
+
+.main-header a {
+  display: block;
+  padding: 5px;
+  background-color: teal;
+  margin: 5px;
 }
 
 article {
