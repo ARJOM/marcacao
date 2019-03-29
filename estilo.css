@@ -18,17 +18,29 @@ span {
     font-size: 2em;
 }
 
+body {
+    background-color: black;
+}
+
+aside, header {
+    color: white;
+}
+
+p {
+    font-size: 30px;
+}
+
 .main-header a {
   display: block;
   padding: 5px;
-  background-color: teal;
+  background-color: orange;
   margin: 5px;
+  color: black;
 }
 
 article {
     flex: 5;
-    background-color: grey;
-    color: black;
+    color: orange;
 }
 
 .catalogo {
@@ -47,4 +59,19 @@ article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+#formulario, #links {
+    margin: 5px;
+}
+
+@media only screen and (min-width: 10px) and (max-width: 767px) and (orientation: portrait){
+
+    body {
+        background-color: gray;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
 }
